@@ -1,0 +1,112 @@
+body {
+    background: url(../img/triangle.jpg);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+}
+
+.container {
+    width 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #f2f1ed;
+}
+
+.logo {
+    float: left;
+    width: 300px;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 175px;
+    padding-top: 23px;
+    position: relative;
+
+}
+nav a {
+    color: #4b535d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover {
+    color: #ff9d02;
+}
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #ff9d02;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+    width: 100%
+}
+footer {
+    background: url(../img/carbon.jpg);
+    color: aliceblue;
+}
+#buy {
+    color: #00a5e2;
+    border-bottom: 1px solid #00a5e2;
+}
+.social {
+    width: 50px;
+    margin-left: 300px;
+    padding: 20px;
+}
+.all {
+width: 100%;
+top 200px;
+}
+.title {
+    font-style: italic;
+    font-size: 40px;
+    color: orange;
+    margin: 30px
+
+}
+.text {
+    font-size: 20px;
+    color: aliceblue;
+    margin: 20px;
+}
+.hero {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
