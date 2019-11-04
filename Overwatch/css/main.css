@@ -65,6 +65,10 @@ nav a::before {
 nav a:hover::before {
     width: 100%
 }
+.active {
+    color: black;
+    font-size: 16px;
+    }
 footer {
     background: url(../img/carbon.jpg);
     color: aliceblue;
@@ -120,4 +124,17 @@ top: 200px;
 }
 .section {
     margin: 120px;
+}
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(2,560px);
+    grid-template-rows: repeat(9,315px);
+    background:  url(../img/triangle.jpg);
+    grid-gap: 1em;
+    justify-content: center;
+    padding-bottom: 35px;
+
+}
+.video {
+    padding: 1em;
 }
