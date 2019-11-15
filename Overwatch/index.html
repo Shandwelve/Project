@@ -3,9 +3,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <link rel="stylesheet" href="css/main.css">
     <title>Overwatch</title>
 </head>
 <body>
@@ -13,7 +16,6 @@
     <div class="container">
        <img src="img/textlogo.svg" alt="logo" class="logo">
     </div>
-
     <nav>
         <ul>
             <li><a class="active">Home</a></li>
@@ -23,14 +25,19 @@
         </ul>
     </nav>
 </header>
+<div class="fotorama" data-autoplay="2000" alt="Slider">
+    <img src="img/SliderHoliday.jpg" alt="Slider">
+    <img src="img/SliderANA.jpg" alt="Slider">
+    <img src="img/SliderFight.jpg" alt="Slider">
+    <img src="img/SliderDie.jpg" alt="Slider">
+</div>
 <section>
-    <img src="img/o.jpg"  alt="allheroes" class="all">
-    <h2> </h2>
-    <p class="title">THE WORLD NEEDS HEROES</p>
+    <h2 class="title">THE WORLD NEEDS HEROES</h2>
     <p class="text">Slow down time, rain destruction from above in a jet-powered armor suit, or pilot a superpowered hamster ball: In Overwatch, every hero has a unique set of devastating abilities.</p>
     <p class="text">Overwatch features an international cast of powerful heroes with captivating personalities and backstories. Explore the full roster below.</p>
 </section>
 <section class="section">
+    <h2>Heroes:</h2>
     <div class="hero">
         <img src="img/ash.png" alt="hero">
         <div class="name">
