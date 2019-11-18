@@ -135,14 +135,17 @@ footer {
     grid-gap: 1em;
     justify-content: center;
     padding-bottom: 35px;
-
 }
 .video {
     padding: 1em;
 }
-
-
-
+.about {
+    text-align: right;
+    margin-top:  20px;
+}
+.dance {
+    width: 600px;
+}
 @media screen and (max-width: 1256px){
     .logo{
         width: 100%;
@@ -169,7 +172,7 @@ footer {
     }
 
     nav ul li a:before{
-        height: 0px;
+        height: 0;
     }
 
     #buy{
@@ -183,6 +186,10 @@ footer {
     .section{
         text-align: center;
     }
-
+    .wrap {
+        display: grid;
+        grid-template-columns: repeat(1,560px);
+        grid-template-rows: repeat(18,315px);
+    }
 
 }
