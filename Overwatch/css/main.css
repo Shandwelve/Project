@@ -146,6 +146,53 @@ footer {
 .dance {
     width: 600px;
 }
+.HeroName {
+    grid-area: name;
+    text-align: center;
+}
+.abilities {
+    grid-area: abilities;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.HeroImg, .HeroName, .description{
+    background-color: #2f4362;
+}
+.abilities div {
+    background-color: #2f4362;
+}
+.HeroImg {
+    grid-area: img;
+}
+.description {
+    grid-area: description;
+}
+.HeroImg img {
+    width: 60%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+            'name name name name name name'
+            'description description description img img img '
+            'abilities abilities abilities img img img';
+    grid-gap: 10px;
+    background: #334768;
+    padding: 10px;
+}
+
+.grid-container div{
+    font-size: 30px;
+}
+
+.imga  {
+    background: url(../img/Ana.png);
+}
 @media screen and (max-width: 1256px){
     .logo{
         width: 100%;
