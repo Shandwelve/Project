@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let vector=[];
+        let n=prompt("Introduceti marimea masivului: ");
+        for (let i=0; i<n; i++) {
+            vector[i]=prompt("Emementul: ");
+            if (vector[i]%2==0) {
+                vector[i+1]=0;
+                i++;
+                n++;
+            }
+        }
+            alert(vector);
+    </script>
+</body>
+</html>
+

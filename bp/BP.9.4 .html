@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+      let vector=[];
+        let n =prompt("Introduceti marimea masivului:");
+        let m =prompt("Introduceti maximul de valori:");
+        let ap =true;
+        for(let i=0;i<n;i++) {
+            vector[i]=prompt("Elementul:");
+            if (vector[i]<1 || vector[i]>m) {
+                ap=false;
+                }
+        }
+        if(ap==true){
+            document.write("Toate valorile apartin intervalului 1->"+m);
+        }
+         else {
+             document.write("Nu toate valorile apartin intervalului 1->"+m);
+         }
+
+    </script>
+</body>
+</html>
+

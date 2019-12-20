@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x = prompt("Introduceti numarul");
+        let arr = [];
+        let zero = false;
+        let i = 0;
+        if(x>=1000 && x<=9999){
+             while(x!=0){
+               arr[i]=x%10;
+               x=Math.floor(x/10);
+                 if(arr[i]==0){
+                     zero=true;
+                 }
+                 i++;
+            }
+        }
+        else {
+            document.write("Numarul trebuie sa contie 4 cifre");
+        }
+        if (zero==false){
+            document.write("a) "+arr[3]+arr[1]+arr[2]+arr[0]+"<br>");
+            document.write("b) "+arr[0]+arr[2]+arr[1]+arr[3]+"<br>");
+            document.write("c) "+arr[0]+"0"+"0"+arr[3]);
+        }
+        else {
+            document.write("Cifrele numarului trebuie sa fie impare");
+        }
+    </script>
+</body>
+</html>

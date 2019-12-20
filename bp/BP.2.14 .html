@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let A=prompt("A=");
+        let B=prompt("B=");
+        let C=prompt("C=");
+        if (A==1) {
+             document.write("x^2+");
+        }
+        else {
+            document.write(A+"x^2+");
+        }
+         if (B==1) {
+            document.write("x+");
+        }
+        else {
+            document.write(B+"x+");
+        }
+            document.write(C+"=0<br>");
+        let del=(Math.pow(B,2)-(4*A*C));
+            document.write("Delta="+del);
+        if(del>0){
+           document.write(", delta =0<br>");
+            let x1=(((-B)-Math.sqrt(del))/2);
+            let x2=(((-B)+Math.sqrt(del))/2);
+            document.write("x1= "+x1+"<br>x2= "+x2);
+           }
+        else if (del==0){
+            document.write(", delta =0<br>");
+            let x=(-B/2);
+            document.write("x= "+x);
+        }
+        else {
+            document.write(", delta ,<0");
+        }
+    </script>
+</body>
+</html>

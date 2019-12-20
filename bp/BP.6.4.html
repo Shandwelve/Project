@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function max(x,y,z){
+            if(x>y && x>z) {
+                m=x;
+            }
+           else if(z>y && z>y) {
+                m=z;
+            }
+            else if(y>x && y>z){
+                m=y;
+            }
+        }
+        let a = prompt("Introduceti primul numar");
+        let b = prompt("Introduceti al 2 numar");
+        let c = prompt("Introduceti al 3 numar");
+        max(a-b,b,Number(a)+Number(b));
+        let m1 = m;
+        max(a,Number(b)+Number(c),a-c);
+        let m2 = m;
+        document.write(Number(m1)+Number(m2));
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let o = prompt("Alegeti optiunea: 1-cateta, 2-ipotenuza, 3-inaltimea pe ipotenuza, 4-aria");
+        let n = prompt("Introduceti latura:");
+        let a;
+        let c;
+        let h;
+        let s;
+        if (o==1){
+            a=n;
+        }
+        else if (o==2){
+            a=Math.sqrt(Math.pow(n)/2);
+        }
+         else if (o==3){
+            a=Math.sqrt(Math.pow(n)/2)/2;
+        }
+        else if (o==4){
+            a=2*Math.sqrt(n);
+        }
+        else {
+            document.write("Aceasta optiune nu exista");
+        }
+        c=Math.sqrt(Math.pow(a)*2);
+        h=c/2;
+        s=Math.pow(a)/2;
+        document.write("Cateta "+a+" ipotenuza "+c+" inaltimea pe ipotenuza "+h+" aria "+s);
+    </script>
+</body>
+</html>
+Program P1;
+var a, c, s, h, n:real;
+    k:char;
+begin
+  writeln('Alegeti optiunea: 1-cateta, 2-ipotenuza, 3-inaltimea pe ipotenuza, 4-aria');
+  write('Optiunea: ');
+  readln(k);
+  write('Introduceti latura: ');
+  readln(n);
+  case k of
+    '1': a:=n;
+    '2': a:=sqrt(sqr(n)/2);
+    '3': a:=sqrt(sqr(n)/2)/2;
+    '4': a:=2*sqrt(n);
+   else
+    write('Aceasta optiune nu exista');
+   end;
+  c:=sqrt(sqr(a)*2);
+  h:=c/2;
+  s:=sqr(a)/2;
+  writeln('In triunghiul dat cateta este ',a:0:2,' ipotenuza este ',c:0:2,' inaltimea pe ipotenuza ',h:0:2,' aria ',s:0:2);
+end.

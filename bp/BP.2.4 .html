@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let a = prompt("Introduceti primul numar");
+       let b = prompt("Introduceti al doilea numar");
+       let c = prompt("Introduceti numarul 1 pentru a calcula media aritmetica sau 2 pentru a calcula media geometrica");
+        let m;
+        let zer = false;
+        if(a==0 || b==0) {
+              zer = true;
+        }
+         if (c==1){
+             document.write(a/2+b/2);
+         }
+            else if (c==2 && zer==false) {
+                document.write(Math.sqrt(a*b));}
+            else {
+                document.write("Eroare");
+            }
+    </script>
+</body>
+</html>

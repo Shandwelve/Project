@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function SDIV(x){
+            let i=1;
+            let z = 0;
+            while (i<=x){
+                if  (x%i==0){
+                z+=Number(i);
+                }
+                i++;
+            }
+            return z;
+                }
+        let n=prompt("Introduceti numarul");
+        let q=SDIV(n);
+        document.write(q);
+        n++;
+        if (q==n) {
+            document.write("DA");
+        }
+        else {
+            document.write("Nu");
+        }
+    </script>
+</body>
+</html>
