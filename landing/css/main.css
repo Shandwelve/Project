@@ -5,6 +5,10 @@
   font-family: Arial, sans-serif;
 }
 
+body {
+  background: black;
+}
+
 .newsMore a {
   text-decoration: none;
   color: #fff;
@@ -33,7 +37,7 @@ nav ul li a {
 }
 
 #header {
-  background: url(../img/header.jpg);
+  background: url(../img/header.jpg) no-repeat;
   background-position: center;
 }
 
@@ -115,7 +119,7 @@ nav a:hover {
 }
 
 #monster {
-  background: url(../img/grifon.jpg);
+  background: url(../img/grifon.jpg) no-repeat;
   background-position: center;
 }
 
@@ -130,12 +134,12 @@ nav a:hover {
 }
 
 #history {
-  background: url(../img/emperor.jpg);
+  background: url(../img/emperor.jpg) no-repeat;
   background-position: center;
 }
 
 #news {
-  background: url(../img/medalion.png);
+  background: url(../img/medalion.png) no-repeat;
   background-position: center;
 }
 
@@ -198,6 +202,28 @@ nav a:hover {
   text-align: center;
   padding-top: 25px;
   font-size: 24px;
+}
+
+.bg {
+  position: fixed;
+  top: 2.5%;
+  left: 2.5%;
+  background: url(../img/walk.jpg) no-repeat;
+  width: 95%;
+  height: 95%;
+  display: none;
+}
+
+button {
+  background: #f2f1ed;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #2f3030;
+  position: absolute;
+  top:0;
+  right: 0;
+  color: #2f3030;
+  z-index: 999;
 }
 
 @media screen and (max-width: 600px) {
