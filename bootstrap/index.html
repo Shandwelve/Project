@@ -1,199 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="img/logo.png" type="image/png">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="img/logo.png" rel="shortcut icon" type="image/png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" href="css/main.css">
+    <link href="css/main.css" rel="stylesheet">
     <title>Overwatch</title>
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="img/textlogo.svg" alt="logo"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Heroes</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Media</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      </ul>
-  </div>
-
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img alt="logo" src="img/textlogo.svg"></a>
+    <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarResponsive"
+            data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Heroes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Media</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        </ul>
+    </div>
 </nav>
-    <div class="carousel slide" data-ride="carousel" id="slides">
-       <ul class="carousel-indicators">
-           <li data-target="#slides" data-slide-to="0" class="active"></li>
-           <li data-target="#slides" data-slide-to="1"></li>
-           <li data-target="#slides" data-slide-to="2"></li>
-           <li data-target="#slides" data-slide-to="3"></li>
-       </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/SliderHoliday.jpg" alt="slider">
-                <div class="carousel-caption">
-                    <h1 class="disply-2">Overwatch</h1>
-                    <h3>THE WORLD NEEDS HEROES</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg">More</button>
-                    <button type="button" class="btn btn-warning btn-lg">Buy Now</button>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/SliderANA.jpg" alt="slider">
-            </div>
-            <div class="carousel-item">
-                <img src="img/SliderFight.jpg" alt="slider">
-            </div>
-            <div class="carousel-item">
-                <img src="img/SliderDie.jpg" alt="slider">
+<div class="carousel slide" data-ride="carousel" id="slides">
+    <ul class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#slides"></li>
+        <li data-slide-to="1" data-target="#slides"></li>
+        <li data-slide-to="2" data-target="#slides"></li>
+        <li data-slide-to="3" data-target="#slides"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img alt="slider" src="img/SliderHoliday.jpg">
+            <div class="carousel-caption">
+                <h1 class="disply-2">Overwatch</h1>
+                <h3>THE WORLD NEEDS HEROES</h3>
+                <button class="btn btn-outline-light btn-lg" type="button">More</button>
+                <button class="btn btn-warning btn-lg" type="button">Buy Now</button>
             </div>
         </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row jumbotron">
-            <div class="col-xs-12 col-sm-12 col-md-9  col-lg-9 col-xl-10">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam quod architecto aliquid nesciunt error dolor dicta quasi a repellendus.</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-               <a href="#"><button class="btn btn-success btn-lg">Lorem</button></a>
-            </div>
+        <div class="carousel-item">
+            <img alt="slider" src="img/SliderANA.jpg">
+        </div>
+        <div class="carousel-item">
+            <img alt="slider" src="img/SliderFight.jpg">
+        </div>
+        <div class="carousel-item">
+            <img alt="slider" src="img/SliderDie.jpg">
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row text-center alert">
-            <div class="col-12">
-                <h1 class="display-4">Blizzard</h1>
-            </div>
-            <hr>
-            <div class="col-12">
-                <p class="lead">Blizzard company is lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, labore animi obcaecati quidem, nobis soluta nam rem temporibus, quibusdam maxime eaque ab ducimus eveniet ex tenetur possimus deleniti repellendus excepturi dignissimos pariatur dolor totam dolorum ratione. Ipsam, maxime aperiam non possimus quis quae ullam minima molestias labore ad dolorum harum!</p>
-            </div>
+</div>
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9  col-lg-9 col-xl-10">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam quod
+                architecto aliquid nesciunt error dolor dicta quasi a repellendus.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <button class="btn btn-success btn-lg">Lorem</button>
         </div>
     </div>
-    <div class="container-fluid padding">
-        <div class="row text-center padding">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <i class="far fa-save"></i>
-                <h3>Damage</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, possimus.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <i class="far fa-save"></i>
-                <h3>Tank</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, possimus.</p>
-            </div><div class="col-xs-12 col-sm-6 col-md-4">
-                <i class="far fa-save"></i>
-                <h3>Damage</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, possimus.</p>
-            </div>
+</div>
+<div class="container-fluid">
+    <div class="row text-center alert">
+        <div class="col-12">
+            <h1 class="display-4">Blizzard</h1>
         </div>
-        <hr class="my-4">
-    </div>
-    <div class="container-fluid padding">
-        <div class="row padding">
-            <div class="offset-lg-2 col-lg-4">
-                <h2>New Event</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptate delectus nesciunt iste commodi placeat rem amet, a praesentium fugit.</p>
-                <br><br>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptate delectus nesciunt iste commodi placeat rem amet, a praesentium fugit.</p>
-                <br><br>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptate delectus nesciunt iste commodi placeat rem amet, a praesentium fugit.</p>
-                <br><br>
-                <a href="#" class="btn btn-danger">More</a>
-                   </div>
-                    <div class="col-lg-6">
-                       <br>
-                        <img src="img/mercychallenge.jpg" alt="mercy" class="img-fluid">
-                    </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead">Blizzard company is lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, labore
+                animi obcaecati quidem, nobis soluta nam rem temporibus, quibusdam maxime eaque ab ducimus eveniet ex
+                tenetur possimus deleniti repellendus excepturi dignissimos pariatur dolor totam dolorum ratione. Ipsam,
+                maxime aperiam non possimus quis quae ullam minima molestias labore ad dolorum harum!</p>
         </div>
     </div>
-    <figure>
-        <div class="fixed-wrap">
-            <div id="fixed">
+</div>
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="far fa-save"></i>
+            <h3>Damage</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, possimus.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="far fa-save"></i>
+            <h3>Tank</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, possimus.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="far fa-save"></i>
+            <h3>Damage</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, possimus.</p>
+        </div>
+    </div>
+    <hr class="my-4">
+</div>
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="offset-lg-2 col-lg-4">
+            <h2>New Event</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptate delectus nesciunt iste
+                commodi placeat rem amet, a praesentium fugit.</p>
+            <br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptate delectus nesciunt iste
+                commodi placeat rem amet, a praesentium fugit.</p>
+            <br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptate delectus nesciunt iste
+                commodi placeat rem amet, a praesentium fugit.</p>
+            <br><br>
+            <a class="btn btn-danger" href="#">More</a>
+        </div>
+        <div class="col-lg-6">
+            <br>
+            <img alt="mercy" class="img-fluid" src="img/mercychallenge.jpg">
+        </div>
+    </div>
+</div>
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed">
 
-            </div>
-        </div>
-    </figure>
-    <div class="text-center">
-    <button id="eventsButton" type="button" class="btn btn-success" data-toggle="collapse" data-target="#events">Show next events</button>
-    </div>
-    <div id="events" class="collapse">
-        <div class="container-fluid padding">
-            <div class="row text-center">
-                <div class="col-sm-6 col-md-3">
-                    <img src="img/hall.jpg" alt="event" class="events">
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <img src="img/winter.jpg" alt="event" class="events">
-                </div>
-                 <div class="col-sm-6 col-md-3">
-                    <img src="img/black.jpg" alt="event" class="events">
-                </div>
-                 <div class="col-sm-6 col-md-3">
-                    <img src="img/ann.jpg" alt="event" class="events">
-                </div>
-            </div>
         </div>
     </div>
-    <div class="text-center">
-         <h1 class="display-3">Game Modes</h1>
-    </div>
-    <div class="container ">
-        <div class="row padding">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/qp.png" alt="card" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title">Quick Play</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, aliquam provident, repudiandae voluptatum repellendus.</p>
-                        <a href="#" class="btn btn-warning">Try It</a>
-                    </div>
-                </div>
+</figure>
+<div class="text-center">
+    <button class="btn btn-success" data-target="#events" data-toggle="collapse" id="eventsButton" type="button">Show
+        next events
+    </button>
+</div>
+<div class="collapse" id="events">
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-sm-6 col-md-3">
+                <img alt="event" class="events" src="img/hall.jpg">
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/comp.png" alt="card" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title">Competitive</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, aliquam provident, repudiandae voluptatum repellendus.</p>
-                        <a href="#" class="btn btn-warning">Try It</a>
-                    </div>
-                </div>
+            <div class="col-sm-6 col-md-3">
+                <img alt="event" class="events" src="img/winter.jpg">
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/arcade.png" alt="card" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title">Arcade</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, aliquam provident, repudiandae voluptatum repellendus.</p>
-                        <a href="#" class="btn btn-warning">Try It</a>
-                    </div>
-                </div>
+            <div class="col-sm-6 col-md-3">
+                <img alt="event" class="events" src="img/black.jpg">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img alt="event" class="events" src="img/ann.jpg">
             </div>
         </div>
     </div>
-    <footer class="container-fluid">
-        <div class="container-fluid">
-            <div class="row padding text-center">
-                <div class="col-12">
-                    <h2>Our Contacts</h2>
-                </div>
-                <div class="col-12" social padding>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+</div>
+<div class="text-center">
+    <h1 class="display-3">Game Modes</h1>
+</div>
+<div class="container ">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img alt="card" class="card-img-top" src="img/qp.png">
+                <div class="card-body">
+                    <h4 class="card-title">Quick Play</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, aliquam
+                        provident, repudiandae voluptatum repellendus.</p>
+                    <a class="btn btn-warning" href="#">Try It</a>
                 </div>
             </div>
         </div>
-    </footer>
+        <div class="col-md-4">
+            <div class="card">
+                <img alt="card" class="card-img-top" src="img/comp.png">
+                <div class="card-body">
+                    <h4 class="card-title">Competitive</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, aliquam
+                        provident, repudiandae voluptatum repellendus.</p>
+                    <a class="btn btn-warning" href="#">Try It</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img alt="card" class="card-img-top" src="img/arcade.png">
+                <div class="card-body">
+                    <h4 class="card-title">Arcade</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, aliquam
+                        provident, repudiandae voluptatum repellendus.</p>
+                    <a class="btn btn-warning" href="#">Try It</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="container-fluid">
+    <div class="container-fluid">
+        <div class="row padding text-center">
+            <div class="col-12">
+                <h2>Our Contacts</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
